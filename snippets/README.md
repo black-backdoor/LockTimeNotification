@@ -6,4 +6,4 @@ This repository contains code snippets related to lock time and lock duration in
 The `LockTime.cs` snippet serves the purpose of retrieving the exact timestamp when a user either locks or unlocks their PC.
 
 ## LockDuration
-Within the `LockTime.cs` snippet, functionality is provided to calculate the duration between the moments when the user locks and unlocks their PC.
+Within the `LockDuration.cs` snippet, functionality is provided to calculate the duration between the moments when the user locks and unlocks their PC.
