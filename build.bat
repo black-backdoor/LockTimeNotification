@@ -1,0 +1,1 @@
+dotnet publish --configuration Release --output ./app --self-contained --runtime win-x64
