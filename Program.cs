@@ -5,7 +5,7 @@ using Microsoft.Win32;
 
 class Program
 {
-    private static DateTime lockTime;
+    private static DateTime lockTime = DateTime.Now;
     private static DateTime unlockTime;
     private static NotifyIcon notifyIcon;
 
