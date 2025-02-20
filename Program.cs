@@ -13,7 +13,7 @@ class Program
     {
         notifyIcon = new NotifyIcon
         {
-            Icon = SystemIcons.Information,
+            Icon = new Icon("icon.ico"),
             Visible = true
         };
 
