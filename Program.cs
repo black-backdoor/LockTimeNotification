@@ -7,7 +7,7 @@ class Program
 {
     private static DateTime lockTime = DateTime.Now;
     private static DateTime unlockTime;
-    private static NotifyIcon notifyIcon;
+    private static NotifyIcon notifyIcon = null!;
 
     static void Main()
     {
