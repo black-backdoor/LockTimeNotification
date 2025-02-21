@@ -17,6 +17,16 @@ class Program
             Visible = true
         };
 
+        // Create context menu with an Exit option
+        ContextMenuStrip contextMenu = new ContextMenuStrip();
+        ToolStripMenuItem exitMenuItem = new ToolStripMenuItem("Exit");
+        exitMenuItem.Click += (sender, e) =>
+        {
+            Application.Exit();
+        };
+        contextMenu.Items.Add(exitMenuItem);
+        notifyIcon.ContextMenuStrip = contextMenu;
+
         SystemEvents.SessionSwitch += new SessionSwitchEventHandler(SystemEvents_SessionSwitch);
 
         Console.WriteLine("Monitoring machine lock/unlock events.");
